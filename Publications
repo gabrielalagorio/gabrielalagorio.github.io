@@ -1,0 +1,29 @@
+publications.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Publications - Gabriela Lagorio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 40px;
+      text-align: center;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Publications</h1>
+  <p>You can download my full list of publications here:</p>
+  <p><a href="Publications.pdf">Download PDF</a></p>
+  <p><a href="index.html">← Back to Home</a></p>
+</body>
+</html>
+
