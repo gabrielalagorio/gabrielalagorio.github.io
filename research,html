@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Research</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #2c3e50;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Research</h1>
+    <p>
+      My research centers on the photophysical and photochemical interactions between light and biological materials, with a focus on plant physiology and ecological optics. I employ advanced fluorescence and reflectance-based techniques to investigate pigment dynamics, photosynthetic performance, and stress responses in plants exposed to environmental pollutants such as arsenic and vanadium, both individually and in combination.
+    </p>
+    <p>
+      These studies include the assessments of variable chlorophyll fluorescence, time-resolved fluorescence imaging, and steady-state fluorescence. I developed several models to correct fluorescence spectra for light re-absorption and re-emission processes.
+    </p>
+    <p>
+      In parallel, I explore the functional role of bio-optical signals in animal-plant interactions, including natural fluorescence in amphibians and bird feathers. These studies aim to elucidate how optical traits contribute to ecological communication and signal evolution.
+    </p>
+    <p>
+      My work also addresses the translation of bio-optical signals into applied tools, such as fluorescence-based indicators of food quality and biosensors for environmental monitoring using aquatic macrophytes.
+    </p>
+  </div>
+</body>
+</html>
