@@ -1,85 +1,124 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Gabriela Lagorio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>María Gabriela Lagorio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f8f9fa;
-      padding: 50px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fafafa;
       color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
-    nav {
-      background-color: #ffffff;
-      padding: 10px 0;
-      margin-bottom: 30px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
     }
 
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #0077b6;
-      font-weight: bold;
-      font-size: 16px;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    img {
-      width: 200px;
-      border-radius: 100px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #ddd;
     }
 
     h1 {
+      margin: 15px 0 5px;
       font-size: 28px;
-      margin-bottom: 10px;
     }
 
-    p {
-      font-size: 18px;
-      margin: 5px 0;
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      color: #555;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #777;
+      margin-top: 5px;
+    }
+
+    .welcome {
+      font-style: italic;
+      color: #444;
+      margin: 20px 0;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 10px 0 30px;
+    }
+
+    .social-links a {
+      color: #336699;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      padding: 0 20px 40px;
+    }
+
+    .divider {
+      border: none;
+      height: 1px;
+      background-color: #ddd;
+      margin: 30px 0;
     }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="publications.html">Publications</a>
-    <a href="research.html">Research</a>
-    <a href="teaching.html">Teaching</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <header>
+    <img src="tu-foto.jpg" alt="María Gabriela Lagorio" />
+    <h1>María Gabriela Lagorio</h1>
+    <h2>PhD in Chemical Sciences</h2>
+    <p class="subtitle">Principal Researcher CONICET and Professor at the University of Buenos Aires</p>
+    <p class="welcome">Welcome to my website.</p>
 
-  <img src="Foto.JPG" alt="Foto de Gabriela Lagorio">
-  <h1>María Gabriela Lagorio</h1>
-  <p>PhD in Chemical Sciences.</p>
-  <p>Principal Researcher CONICET and Professor at the University of Buenos Aires.</p><div style="display: flex; align-items: flex-start;">
-  <img src="images/profile.jpg" alt="Gabriela Lagorio" style="width:200px; margin-right: 20px;">
- 
+    <div class="social-links">
+      <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+      <a href="https://www.researchgate.net" target="_blank">ResearchGate</a>
+      <a href="https://www.oceanexpert.org" target="_blank">Ocean Expert</a>
+      <a href="https://theconversation.com" target="_blank">The Conversation</a>
+    </div>
+  </header>
 
+  <main>
+    <hr class="divider" />
+
+    <p>
+      I am a Principal Researcher at the Institute of Physical Chemistry of Materials, Environment and Energy,
+      and a Professor in the Department of Inorganic, Analytical and Physical Chemistry in Buenos Aires, Argentina.
+      I hold a PhD and a Diploma from the Faculty of Exact and Natural Sciences at the University of Buenos Aires.
+    </p>
+
+    <p>
+      My research is primarily focused on photochemistry and photobiology, with particular interest in the roles of fluorescence
+      and reflectance in living organisms. I have extensive experience in chlorophyll fluorescence and its relationship with photosynthesis.
+    </p>
+
+    <p>
+      A distinctive area of my work involves the study of scattering materials with high chromophore concentrations.
+      In this field, I have developed several physical models to better understand how light interacts with such materials
+      and to correct for artifacts and spectral distortions.
+    </p>
+  </main>
 </body>
-  <a href="https://scholar.google.com/citations?user=QaK-obYAAAAJ&hl=es">Google Scholar</a><br>
-  <a href="https://www.researchgate.net/profile/Maria-Lagorio">ResearchGate</a><br>
-  <a href="https://oceanexpert.org/expert/mgl">Ocean Expert</a><br>
-  <a href="https://theconversation.com/profiles/maria-gabriela-lagorio-346319">The Conversation</a><br>
-
-   <div>
-
-     
-    <p><strong>Welcome to my website.</strong><br>
-    I am a Principal Researcher at the Institute of Physical Chemistry of Materials, Environment and Energy, and a Professor in the Department of Inorganic, Analytical and Physical Chemistry in Buenos Aires, Argentina. I hold a PhD and a Diploma from the Faculty of Exact and Natural Sciences at the University of Buenos Aires.</p>
-
-    <p>My research is primarily focused on photochemistry and photobiology, with particular interest in the roles of fluorescence and reflectance in living organisms. I have extensive experience in chlorophyll fluorescence and its relationship with photosynthesis.</p>
-
-    <p>A distinctive area of my work involves the study of scattering materials with high chromophore concentrations. In this field, I have developed several physical models to better understand how light interacts with such materials and to correct for artifacts and spectral distortions.</p>
-  </div>
-</div>
 </html>
