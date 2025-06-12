@@ -5,23 +5,62 @@
   <title>Publications - Gabriela Lagorio</title>
   <style>
     body {
-      font-family: Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: #333;
-      padding: 40px;
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
+
+    .container {
+      background-color: #ffffff;
+      padding: 40px 60px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #1e3d59;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+
     a {
       color: #0077b6;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #023e8a;
+      text-decoration: underline;
+    }
+
+    .back-link {
+      font-size: 16px;
+      display: inline-block;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
-  <h1>Publications</h1>
-  <p>You can download my full list of publications here:</p>
-  <p><a href="Publications.pdf">Download PDF</a></p>
-  <p><a href="index.html">← Back to Home</a></p>
+  <div class="container">
+    <h1>Publications</h1>
+    <p>You can download my full list of publications here:</p>
+    <p><a href="Publications.pdf" target="_blank">Download PDF</a></p>
+    <p class="back-link"><a href="index.html">← Back to Home</a></p>
+  </div>
 </body>
 </html>
